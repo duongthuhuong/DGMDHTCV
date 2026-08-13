@@ -8,3 +8,4 @@ Trang thuyết trình giới thiệu mô hình đổi mới quản trị công v
 - Dùng phím mũi tên trái/phải để chuyển slide.
 - Dùng Home/End để đến slide đầu/cuối.
 - Chọn **Toàn màn hình** khi trình chiếu.
+- Cập nhật trang trình chiếu.
