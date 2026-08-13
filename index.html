@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Đổi mới phương thức quản trị công việc tại PVEP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <aside id="sidebar">
+      <div class="brand"><b>PVEP</b><span>THAM LUẬN SƠ KẾT 2026</span></div>
+      <div class="deck"><small>BÀI TRÌNH BÀY</small><strong>Quản trị công việc theo mục tiêu</strong></div>
+      <nav id="chapters"></nav>
+      <footer>Hội nghị sơ kết 06 tháng đầu năm 2026<br>PVEP · 01/07/2026</footer>
+    </aside>
+    <section class="stage">
+      <header><button id="menu" aria-label="Mở mục lục">☰</button><div><small id="chapterName"></small><strong id="slideTitle"></strong></div><button id="fullscreen">⛶ Toàn màn hình</button></header>
+      <div class="viewer"><img id="slide" alt="Slide trình bày"><button id="prevEdge" class="edge prev">‹</button><button id="nextEdge" class="edge next">›</button></div>
+      <div class="controls"><button id="prev">← Trước</button><div class="status"><b id="current">01</b><span>/ 17</span><i><em id="bar"></em></i><small>← → chuyển slide · Home/End đầu/cuối</small></div><button id="next">Tiếp →</button></div>
+    </section>
+  </main>
+  <button id="backdrop" aria-label="Đóng mục lục"></button>
+  <script src="script.js"></script>
+</body>
+</html>
